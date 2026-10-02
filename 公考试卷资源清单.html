@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 公务员考试试卷资源精选</title>
+<style>
+  :root{
+    --bg:#f6f7f9;
+    --card:#ffffff;
+    --ink:#1c2024;
+    --ink-2:#4b5563;
+    --ink-3:#8b949e;
+    --line:#e5e8ec;
+    --accent:#c0392b;
+    --accent-soft:#fdf0ee;
+    --blue:#1f6feb;
+    --blue-soft:#eef4ff;
+    --green:#1a7f4b;
+    --green-soft:#edf8f1;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    padding:40px 24px 72px;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1000px;margin:0 auto;}
+  header{margin-bottom:32px;}
+  h1{
+    font-size:30px;margin:0 0 10px;letter-spacing:-.4px;font-weight:700;
+  }
+  h1 .dot{color:var(--accent);}
+  .sub{color:var(--ink-2);font-size:15px;margin:0;}
+  .meta{
+    margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;font-size:12.5px;color:var(--ink-3);
+  }
+  .meta span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px 12px;}
+
+  section{margin-top:38px;}
+  .sec-head{display:flex;align-items:center;gap:10px;margin-bottom:6px;}
+  .sec-head .bar{width:4px;height:20px;border-radius:2px;background:var(--accent);}
+  .sec-head h2{font-size:19px;margin:0;font-weight:650;}
+  .sec-desc{color:var(--ink-2);font-size:13.5px;margin:0 0 16px 14px;}
+
+  .list{display:grid;gap:12px;}
+  .item{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px;transition:box-shadow .18s ease,border-color .18s ease,transform .18s ease;
+  }
+  .item:hover{box-shadow:0 6px 20px rgba(28,32,36,.07);border-color:#d8dce2;transform:translateY(-1px);}
+  .row{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;}
+  .name{font-size:15.5px;font-weight:650;line-height:1.4;word-break:break-all;}
+  .name a{color:var(--blue);text-decoration:none;}
+  .name a:hover{text-decoration:underline;}
+  .name .owner{color:var(--ink-3);font-weight:400;}
+  .badge{
+    flex:none;font-size:12px;font-weight:600;color:var(--ink-2);
+    background:#f2f4f7;border:1px solid var(--line);border-radius:6px;
+    padding:2px 8px;white-space:nowrap;font-variant-numeric:tabular-nums;
+  }
+  .badge.hot{background:var(--accent-soft);border-color:#f6d5d0;color:var(--accent);}
+  .desc{margin:7px 0 0;font-size:13.5px;color:var(--ink-2);}
+  .tags{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px;}
+  .tag{
+    font-size:11.5px;padding:2px 9px;border-radius:5px;background:var(--blue-soft);
+    color:#1a5fd0;border:1px solid #dce7fb;
+  }
+  .tag.g{background:var(--green-soft);color:var(--green);border-color:#d6ecdf;}
+  .tag.r{background:var(--accent-soft);color:var(--accent);border-color:#f6d5d0;}
+
+  .tip{
+    margin-top:16px;background:#fffbeb;border:1px solid #f4e2b0;border-radius:10px;
+    padding:14px 18px;font-size:13.5px;color:#6b5312;
+  }
+  .tip b{color:#8a6a12;}
+  .tip ul{margin:8px 0 0;padding-left:20px;}
+  .tip li{margin:4px 0;}
+
+  footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--ink-3);font-size:12.5px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>GitHub 公务员考试试卷资源精选<span class="dot">.</span></h1>
+  <p class="sub">从 GitHub 全站检索并人工筛选出的公考（行测 / 申论）试卷、真题与备考资料仓库。</p>
+  <div class="meta">
+    <span>检索时间：2026-10-03</span>
+    <span>检索词：公务员 / 公考 / 行测 / 申论 / 国考 / 省考 / 事业单位 / 真题</span>
+    <span>共 16 个精选仓库</span>
+  </div>
+</header>
+
+<section>
+  <div class="sec-head"><div class="bar"></div><h2>一、真题试卷本体（优先看这里）</h2></div>
+  <p class="sec-desc">直接包含试卷题目、答案与解析的仓库，是"找试卷"最核心的结果。</p>
+  <div class="list">
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/ERRRC/xingcezhenti" target="_blank" rel="noopener">ERRRC/xingcezhenti</a></div>
+        <div class="badge hot">★ 735</div>
+      </div>
+      <p class="desc">2016–2026 年国考 + 省考全部<strong>行测真题</strong>：515 套卷 / 58,890 题，按政治理论、常识判断、言语理解、数量关系、判断推理、资料分析六大模块分目录。每套卷每模块一篇笔记，含题干、选项、答案、官方解析；39,461 张图片已本地化，断网也能看。推荐用 Obsidian 打开。</p>
+      <div class="tags"><span class="tag">行测</span><span class="tag">2016–2026</span><span class="tag g">含答案+解析</span><span class="tag g">离线可用</span><span class="tag">Markdown</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/ERRRC/kaogongzhentizhengliu" target="_blank" rel="noopener">ERRRC/kaogongzhentizhengliu</a></div>
+        <div class="badge hot">★ 675</div>
+      </div>
+      <p class="desc">2016–2026 国考/省考/联考真题<strong>按考点重新组织</strong>的深度标注笔记，目前覆盖判断推理与资料分析两大部分。适合二轮复习时按题型集中突破。</p>
+      <div class="tags"><span class="tag">考点重组</span><span class="tag">判断推理</span><span class="tag">资料分析</span><span class="tag g">深度标注</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/Yaoyuan-Zhang319/AdministrativeAptitudeTest" target="_blank" rel="noopener">Yaoyuan-Zhang319/AdministrativeAptitudeTest</a></div>
+        <div class="badge hot">★ 644</div>
+      </div>
+      <p class="desc">近二十年公考<strong>行测真题</strong>，按「国考 / 省考以及市考 / 选调」三个目录归档，含各年试卷及答案。仓库 Releases 区提供"全国公务员考试（截止到 2024 年）"压缩包一键下载，适合直接下载存档。</p>
+      <div class="tags"><span class="tag">行测</span><span class="tag">近20年</span><span class="tag">国考</span><span class="tag">省考</span><span class="tag">选调生</span><span class="tag g">Releases 打包下载</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/zzcc-nb/gongkao-tiku" target="_blank" rel="noopener">zzcc-nb/gongkao-tiku</a></div>
+        <div class="badge">★ 12</div>
+      </div>
+      <p class="desc">公务员 / 事业单位<strong>考题库</strong>：行测、申论、职测、综应，条目含题干、参考答案、答题演示与考点解析。仓库较新，题量有限，可作为结构化题库的补充样本。</p>
+      <div class="tags"><span class="tag">题库</span><span class="tag">行测</span><span class="tag">申论</span><span class="tag">事业单位</span></div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><div class="bar"></div><h2>二、备考攻略 / 资料合集 / 思维导图</h2></div>
+  <p class="sec-desc">不含完整试卷本体，但提供方法论、知识框架与资料汇总，适合搭配上面的真题一起用。</p>
+  <div class="list">
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/coder2gwy/coder2gwy" target="_blank" rel="noopener">coder2gwy/coder2gwy</a></div>
+        <div class="badge hot">★ 27,685</div>
+      </div>
+      <p class="desc">互联网首份<strong>程序员考公指南</strong>，由 3 位已进入体制内的前大厂程序员联合编写，覆盖选岗、笔试、面试全流程，公考类仓库里星标最高。</p>
+      <div class="tags"><span class="tag g">高人气</span><span class="tag">备考指南</span><span class="tag">择岗</span><span class="tag">面试</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/miss-mumu/developer2gwy" target="_blank" rel="noopener">miss-mumu/developer2gwy</a></div>
+        <div class="badge hot">★ 11,305</div>
+      </div>
+      <p class="desc">「公务员从入门到上岸」——面向程序员的公考实践教程，体系完整，与上一份常被并列推荐。</p>
+      <div class="tags"><span class="tag g">高人气</span><span class="tag">教程</span><span class="tag">从入门到上岸</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/kuriv/civil-service-exam" target="_blank" rel="noopener">kuriv/civil-service-exam</a></div>
+        <div class="badge">★ 1,003</div>
+      </div>
+      <p class="desc">公务员考试<strong>知识思维导图</strong>，把行测、申论各模块知识点画成脑图，适合快速建立整体框架。</p>
+      <div class="tags"><span class="tag">思维导图</span><span class="tag">知识框架</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/zhangxiangliang/civil-service-exam" target="_blank" rel="noopener">zhangxiangliang/civil-service-exam</a></div>
+        <div class="badge">★ 983</div>
+      </div>
+      <p class="desc">考试攻略合集，涵盖公务员与事业单位两类考试的备考思路、时间规划与经验帖。</p>
+      <div class="tags"><span class="tag">攻略</span><span class="tag">事业单位</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/hwlvipone/yunduanqiqu" target="_blank" rel="noopener">hwlvipone/yunduanqiqu</a></div>
+        <div class="badge">★ 529</div>
+      </div>
+      <p class="desc">公考资料免费分享仓库，侧重<strong>申论范文、申论真题库、公考面试真题与申论素材</strong>，正好补上行测之外的部分。</p>
+      <div class="tags"><span class="tag">申论范文</span><span class="tag r">申论真题库</span><span class="tag">面试真题</span><span class="tag">素材</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/Hacker233/sharemore52" target="_blank" rel="noopener">Hacker233/sharemore52</a></div>
+        <div class="badge">★ 629</div>
+      </div>
+      <p class="desc">各类资料、教程合集（编程、公务员考试、证书考取、互联网等），主要以<strong>网盘链接</strong>形式分享。内容较杂，需自行甄别。</p>
+      <div class="tags"><span class="tag">资源合集</span><span class="tag">网盘</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/dfds2989-source/kaogong-materials" target="_blank" rel="noopener">dfds2989-source/kaogong-materials</a></div>
+        <div class="badge">★ 131</div>
+      </div>
+      <p class="desc">2026 考公资料大全，覆盖国考/省考的行测、申论、面试全套备考资料清单（多为网盘分享）。</p>
+      <div class="tags"><span class="tag">2026</span><span class="tag">资料大全</span><span class="tag">网盘</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/hornhuang/coder2ShiYeBian" target="_blank" rel="noopener">hornhuang/coder2ShiYeBian</a></div>
+        <div class="badge">★ 347</div>
+      </div>
+      <p class="desc">事业编备考指南，程序员转行事业编的心路历程与备考体系，包含公务员相关内容。</p>
+      <div class="tags"><span class="tag">事业编</span><span class="tag">备考指南</span></div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><div class="bar"></div><h2>三、工具与 AI 技能</h2></div>
+  <p class="sec-desc">不直接给试卷，但能帮你刷题、整理错题、生成申论，属于"用起来"的一类。</p>
+  <div class="list">
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/Uahh/Slscq" target="_blank" rel="noopener">Uahh/Slscq</a></div>
+        <div class="badge">★ 1,139</div>
+      </div>
+      <p class="desc">「申论生成器」——基于模板与语料自动生成申论范文，可用于对比参考文风与结构（注意：生成内容不能直接当范文背诵）。</p>
+      <div class="tags"><span class="tag">申论</span><span class="tag">生成器</span><span class="tag">工具</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/KaguraNanaga/kaogong-study-tracker" target="_blank" rel="noopener">KaguraNanaga/kaogong-study-tracker</a></div>
+        <div class="badge">★ 264</div>
+      </div>
+      <p class="desc">考公备考 Skills，用于行测、申论<strong>错题整理与定时总结</strong>，可接入支持 Agent Skills 的 AI 工具使用。</p>
+      <div class="tags"><span class="tag">错题整理</span><span class="tag">Skill</span><span class="tag">AI 工具</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/KeWang0622/kaogong-skill" target="_blank" rel="noopener">KeWang0622/kaogong-skill</a></div>
+        <div class="badge">★ 151</div>
+      </div>
+      <p class="desc">考公 AI 导师技能：覆盖行测、申论、面试、时政、报考，遵循 Agent Skills 开放标准，可在 Claude Code / ChatGPT 等中调用。</p>
+      <div class="tags"><span class="tag">AI 导师</span><span class="tag">Skill</span><span class="tag">面试</span><span class="tag">时政</span></div>
+    </div>
+
+    <div class="item">
+      <div class="row">
+        <div class="name"><a href="https://github.com/Why-com-ui/gongkao-practice.skill" target="_blank" rel="noopener">Why-com-ui/gongkao-practice.skill</a></div>
+        <div class="badge">★ 11</div>
+      </div>
+      <p class="desc">公考/省考/事业单位智能练习生成项目：按考试类型、地区、题量、难度、题型生成选择题，并支持导入 Markdown/CSV/Excel 题库做标准化。</p>
+      <div class="tags"><span class="tag">出题</span><span class="tag">Skill</span><span class="tag">题库标准化</span></div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><div class="bar"></div><h2>四、检索技巧与注意事项</h2></div>
+  <div class="tip">
+    <b>想自己继续挖，可以用这些 GitHub 高级检索式：</b>
+    <ul>
+      <li><code>公务员 in:name,description</code>、<code>行测 in:name,description</code>、<code>公考 in:name,description</code></li>
+      <li><code>topic:gongkao</code>、<code>topic:civil-service-exam</code> 按话题标签找</li>
+      <li>加 <code>sort:stars</code> 或直接在仓库搜索页选「Most stars」排序，能快速筛出高口碑仓库</li>
+      <li>代码级搜索：<code>行测 filename:README.md</code>，或 <code>申论 extension:md</code></li>
+    </ul>
+  </div>
+  <div class="tip" style="background:#f4f6f9;border-color:#e2e6ec;color:#3b4550;">
+    <b>几点提醒：</b>
+    <ul>
+      <li><strong>版权：</strong>真题版权归命题机构所有，这些仓库多为个人整理分享，建议仅作个人学习使用，勿商用或二次分发。</li>
+      <li><strong>时效：</strong>星标数与内容更新时间为 2026-10-03 检索快照，后续可能变化；试卷年份以各仓库 README 为准。</li>
+      <li><strong>网盘类仓库：</strong>分享链接易失效，且内容未经审核，下载前请自行判断安全性。</li>
+      <li><strong>优先顺序建议：</strong>先看第一节的 ERRRC/xingcezhenti（题量最大、解析最全），再用 Yaoyuan-Zhang319 的打包下载补早年试卷。</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  由 WorkBuddy 通过 GitHub 检索整理 · 生成于 2026-10-03 · 星标数仅代表收藏热度，不代表内容质量
+</footer>
+
+</div>
+</body>
+</html>
